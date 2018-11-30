@@ -1,5 +1,6 @@
 html {
   width: 1920px;
+
 }
 
 body {
@@ -308,14 +309,19 @@ z-index: 3;
 #bluesquiggle {
   position: absolute;
 top: -90px;
-left: -50px;
+left: -60px;
 }
 
 #yellowsquiggle {
   position: absolute;
 top: -40px;
 left: -979px
+}
 
+#redsquiggle {
+  position: absolute;
+  top: -96px;
+  left: -520px;
 }
 
 .preorder {
@@ -698,6 +704,7 @@ left: -979px
 	height: 562.5px;
 	width: 1000px;
 	overflow: hidden;
+  margin-bottom: 60pxpx
 }
 
 #carousel-strip {
@@ -738,7 +745,7 @@ left: -979px
 
 .backtotop {
   position: relative;
-  top: 20px;
+  top: 75px;
   left:50%;
   transform: translateX(-50%);
   display:flex;
@@ -764,9 +771,8 @@ left: -979px
   position: relative;
   left:0;
   right:0;
-  margin: auto
-  width: 253px;
-  height: 41px;
+  margin: auto;
+  height: 136px;
   font-size: 34px;
   font-weight: 600;
   font-style: normal;
@@ -774,7 +780,7 @@ left: -979px
   line-height: 1.21;
   letter-spacing: 6.8px;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 80px
 }
 
@@ -882,8 +888,8 @@ top: 131px;
 
 #topblueline {
   position: absolute;
-  left: 300px;
-  top: 235px;
+  left: 303px;
+top: 246px;
 }
 
 #bottomblueline {
@@ -989,10 +995,6 @@ width: 23px;
 
 .phototop {
   color: #ff4351;
-}
-
-a:active {
-  font-family: ProximaNova-ExtrabldIt
 }
 
 .selected {

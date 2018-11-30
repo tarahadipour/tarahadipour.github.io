@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 	$(".backtotop").click(function(){
 		console.log("down")
-		$(window).scrollTo($(".contentarea"))
+		$(window).scrollTo($("html"))
 	});
 
 	$.extend($.scrollTo.defaults, {
